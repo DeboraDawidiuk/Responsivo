@@ -29,3 +29,28 @@ nav ul li a {
 	background-color: #FF00D7;
 }
 
+h1 {
+	color: #ffffff;
+	font-size: 55px;
+	padding-top: 120px;
+	padding-left: 60px;
+}
+
+/*Tablet*/
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 40px;
+		text-align: center;
+		padding-left: 0;
+	}
+}
+
+
+/*Mobile*/
+@media (max-width: 400px) {
+	h1 {
+		font-size: 25px;
+	}
+}
+
